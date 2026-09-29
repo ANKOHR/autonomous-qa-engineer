@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Build and coverage
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local AQE artifacts
+*.sitemap.json
+*.catalogue.json
+*.results.json
+*_snapshots/
+aq-runs/
+
+# Launcher, prompt, and log residue
+/aq-prompt.txt
+/aq-launch.py
+/aq-codex.log
+*.log
